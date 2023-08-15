@@ -9,7 +9,7 @@ export default {
       colors: {
         primary: '#001010',
         secondary: "#aaa6c3",
-        tertiary: "#181624",
+        tertiary: "#202020",
       },
       screens:{
         'xs': '550px',
