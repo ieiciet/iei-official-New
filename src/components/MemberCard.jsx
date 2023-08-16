@@ -9,8 +9,8 @@ export default function MemberCard({name, imgUrl, position, socialLinks, index})
   return (
     <Tilt className='xs:w-[220px] w-full'>
        <motion.div 
-        initial={{scale: 0.5, opacity: 0}}
-        whileInView={{scale: 1,opacity: 1}}
+        initial={{scale: 0.5, opacity: 0, y:100}}
+        whileInView={{scale: 1,opacity: 1, y:0}}
         transition={{duration: 0.5}}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
         <div options={{
@@ -34,14 +34,14 @@ export default function MemberCard({name, imgUrl, position, socialLinks, index})
             <div className='text-center text-secondary text-[16px]'>{position}</div>
           </div>
           <div className='flex flex-row justify-center items-center xs:gap-4 gap-10'>
-            <a href={socialLinks[0].url} target='_blank'>
+            <a href={socialLinks[0].url} target='_blank' className='cursor-pointer'>
               <FaLinkedin className='text-blue-600'/>
             </a>
-            <a href={socialLinks[1].url} target='_blank'>
+            <a href={socialLinks[1].url} target='_blank' className='cursor-pointer'>
               {/* <FaLinkedin className='bg-blue-600'/> */}
               <FaGithub className='text-orange-600'/>
             </a>
-            <a href={socialLinks[2].url} target='_blank'>
+            <a href={socialLinks[2].url} target='_blank' className='cursor-pointer'>
               {/* <FaLinkedin className='bg-blue-600'/> */}
               <HiOutlineMail className='text-green-300'/>
             </a>
