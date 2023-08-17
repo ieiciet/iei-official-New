@@ -14,6 +14,13 @@ export default {
       screens:{
         'xs': '550px',
       }
+    },
+    fontFamily: {
+      'sans': ['Roboto', 'sans-serif'],
+      'serif': ['Roboto Slab', 'serif'],
+      'poppins': ['Poppins', 'sans-serif'],
+      'mansalva': ['Mansalva', 'cursive'],
+      'hiMelody': ['Hi Melody', 'cursive'],
     }
   },
   plugins: [],

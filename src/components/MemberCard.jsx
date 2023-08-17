@@ -7,7 +7,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 
 export default function MemberCard({name, imgUrl, position, socialLinks, index}) {
   return (
-    <Tilt className='xs:w-[220px] w-full'>
+    <Tilt className='xs:w-[250px] w-full'>
        <motion.div 
         initial={{scale: 0.5, opacity: 0, y:100}}
         whileInView={{scale: 1,opacity: 1, y:0}}
@@ -30,7 +30,7 @@ export default function MemberCard({name, imgUrl, position, socialLinks, index})
             <img src={imgUrl} alt="image" className='rounded-full h-[90px] w-[90px]'/>
           </motion.div>
           <div>
-            <div className='text-center text-white font-bold text-[20px]'>{name}</div>
+            <div className='text-center text-white font-bold text-[30px]'>{name}</div>
             <div className='text-center text-secondary text-[16px]'>{position}</div>
           </div>
           <div className='flex flex-row justify-center items-center xs:gap-4 gap-10'>
