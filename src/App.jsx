@@ -7,11 +7,13 @@ import PastEvent from './Pages/PastEvent';
 import TeamIei from './Pages/TeamIei';
 import EventGallery from './Pages/EventGallery';
 import Contact from './Pages/Contact';
+import NavBar from './components/NavBar';
 
 
 function App() {
   return (
     <BrowserRouter>
+    <NavBar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/upcomingEvent" element={<UpcomingEvent/>}/>

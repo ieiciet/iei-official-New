@@ -10,6 +10,7 @@ export default {
         primary: '#001010',
         secondary: "#aaa6c3",
         tertiary: "#202020",
+        nav: "#383838",
       },
       screens:{
         'xs': '550px',

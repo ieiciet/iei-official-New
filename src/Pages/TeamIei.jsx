@@ -6,12 +6,12 @@ import {webTeam} from '../utils/teamData'
 
 function TeamIei() {
   return (
-    <div className='min-h-screen bg-[#121212] sm:px-20 xl:px-36 px-10 py-10 '>
+    <div className='min-h-screen bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
       <h1 className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
-        Meet Our Team
+        <span className='text-secondary'>Meet Our Team</span>
       </h1>
       <h1 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] font-sans">
-        Team IE(I)
+        Team IE<span className='text-yellow-500'>(</span>I<span className='text-yellow-500'>)</span>
       </h1>
       <section className="flex flex-col justify-center items-center py-10">
         <TeamName name="Web Team"/>
