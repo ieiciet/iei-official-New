@@ -7,7 +7,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 
 export default function MemberCard({name, imgUrl, position, socialLinks, index}) {
   return (
-    <Tilt className='xs:w-[250px] w-full'>
+    <Tilt className='xs:w-[250px] w-full z-[1]'>
        <motion.div 
         initial={{scale: 0.5, opacity: 0, y:100}}
         whileInView={{scale: 1,opacity: 1, y:0}}

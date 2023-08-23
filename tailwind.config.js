@@ -11,6 +11,7 @@ export default {
         secondary: "#aaa6c3",
         tertiary: "#202020",
         nav: "#383838",
+        bg:'#1d1a1a'
       },
       screens:{
         'xs': '550px',
