@@ -27,7 +27,6 @@ function UpcomingEvent() {
           <div className='w-full h-[1px] bg-white mb-10'></div>
         </div>
         <div className="upcomingEvent mt-10 md:flex md:justify-center">
-          {/* Render event data if it exists */}
           {eventData && eventData.map((event) => (
             <div key={event._id} className="flex flex-col items-center border border-gray-200 rounded-lg shadow md:flex-row md:w-9/12 bg-tertiary bg-opacity-60">
               <img className="object-contain w-full h-72 md:h-auto md:w-72 md:rounded-none md:rounded-l-lg" src={event.Image} alt="" />

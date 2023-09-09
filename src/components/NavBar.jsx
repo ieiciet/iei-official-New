@@ -15,9 +15,10 @@ export default function NavBar() {
             </div>
             <div className='flex flex-row items-center justify-center gap-5 text-white'>
               <Link to='/' relative='path' className='hover:text-orange-500'>Home</Link>
+              <Link to='/event' relative='path' className='hover:text-orange-500'>Events</Link>
               <Link to='/teamIei' relative='path' className='hover:text-orange-500'>Teams</Link>
-              <Link to='/upcomingEvent' relative='path' className='hover:text-orange-500'>Upcoming Events</Link>
-              <Link to='/pastEvent' relative='path' className='hover:text-orange-500'>Past Events</Link>
+              {/* <Link to='/upcomingEvent' relative='path' className='hover:text-orange-500'>Upcoming Events</Link>
+              <Link to='/pastEvent' relative='path' className='hover:text-orange-500'>Past Events</Link> */}
               <Link to='/eventgallery' relative='path' className='hover:text-orange-500'>Event Gallery</Link>
               <Link to='/contact' relative='path' className='hover:text-orange-500'>Contact</Link>
             </div>

@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import PastEventCard from '../components/PastEventCard';
+import EventCard from './EventCard';
 
 function PastEvent() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Replace with your API URL
-    const API_URL = 'https://your-api-url.com/events';
+    const API_URL = 'https://iei-api.cyclic.app/event/past/';
 
     fetch(API_URL)
       .then((response) => response.json())
@@ -17,9 +16,6 @@ function PastEvent() {
 
   return (
     <div className='min-h-screen bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
-      <h2 className="text-white font-black md:text-6xl sm:text-5xl xs:text-4xl text-3xl font-sans mb-4">
-        Events
-      </h2>
       <div className='main-p min-h-screen '>
         <div className="flex flex-col items-center justify-center">
           <div className="text-white px-6 font-bold text-[40px] font-poppins">Past Event</div>
