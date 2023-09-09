@@ -17,11 +17,11 @@ function UpcomingEvent() {
   }, []);
 
   return (
-    <div className='min-h-screen bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
+    <div className='min-h-full bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
       <h2 className="text-white font-black md:text-6xl sm:text-5xl xs:text-4xl text-3xl font-sans mb-4 mt-4">
         Events
       </h2>
-      <div className='main-u min-h-screen'>
+      <div className='main-u'>
         <div className="flex flex-col items-center justify-center">
           <div className="text-white px-6 font-bold text-[40px] font-poppins">Upcoming Event</div>
           <div className='w-full h-[1px] bg-white mb-10'></div>
