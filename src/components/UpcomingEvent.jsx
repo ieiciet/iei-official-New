@@ -23,7 +23,7 @@ function UpcomingEvent() {
       </h2>
       <div className='main-u'>
         <div className="flex flex-col items-center justify-center">
-          <div className="text-white px-6 font-bold text-[40px] font-poppins">Upcoming Event</div>
+          <div className="text-white px-6 font-bold md:text-[40px] font-poppins">Upcoming Event</div>
           <div className='w-full h-[1px] bg-white mb-10'></div>
         </div>
         <div className="upcomingEvent mt-10 md:flex md:justify-center">
