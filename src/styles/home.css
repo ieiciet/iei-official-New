@@ -1,3 +1,8 @@
 .trial-border{
     @apply border-2 border-red-500 border-solid;
 }
+.green-pink-gradient {
+    background: "#00cea8";
+    background: linear-gradient(90.13deg, #ffe14b 1.9%, #ffffff 97.5%);
+    background: -webkit-linear-gradient(-90.13deg, #ffe14b 1.9%, #ffffff 97.5%);
+  }

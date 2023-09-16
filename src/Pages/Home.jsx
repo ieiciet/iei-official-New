@@ -1,46 +1,27 @@
-import React, { useLayoutEffect } from 'react'
+import React from 'react'
 import heroBg from '../assets/bg/bgHero.png'
+import { Link } from 'react-router-dom';
 import '../styles/home.css'
+
+import { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+
+
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+
+import '../styles/slider.css';
+
+// import required modules
+import { EffectCards } from 'swiper/modules';
+
+// end slider
 
 import {events} from '../utils/pastEvents'
 
 
 function Home() {
-
-  // useEffect(() => {
-  //   gsap.to(leftAbout.current,{
-  //     scrollTrigger:{
-  //       trigger: aboutRef.current,
-  //       pin: true,
-  //       start: "top top",
-  //       end: "bottom bottom",
-  //       endTrigger:lastEle.current,
-  //       scrub: 1,
-  //     },
-  //     y:"-100%",
-  //   })
-  // },[]);
-
-
-  // useLayoutEffect(() => {
-  //   const ctx = gsap.context((self) => {
-  //     const boxes = self.selector('.box');
-  //     boxes.forEach((box) => {
-  //       gsap.to(box, {
-  //         scrollTrigger:{
-  //           trigger: rightAbout.current,
-  //           pin: true,
-  //           start: "top top",
-  //           end: "bottom bottom",
-  //           endTrigger:lastEle.current,
-  //           scrub: 1,
-  //         },
-  //         y:"-100%",
-  //       });
-  //     });
-  //   }, main.current); // <- Scope!
-  //   return () => ctx.revert(); // <- Cleanup!
-  // }, []);
 
   return (
     <div className='min-h-[100vh] relative z-[-2] bg-bg main-section'>
@@ -59,19 +40,27 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* <section className='w-full bg-bg relative drop-shadow-section sm:px-20 xl:px-36 px-10 about-section min-h-[100vh] ' ref={main} >     
-        <div className='flex flex-row w-[100%] h-[100%] ' ref={aboutRef}>
-          <div className='text-white  w-[50%] overflow-auto' ref={leftAbout}>
-            <div className='h-[100vh] bg-white box'></div>
-            <div className='h-[100vh] bg-red-400 box' ref={lastEle}></div>
-          </div>
-          <div className='images  w-[50%]' ref={rightAbout}>
-            <h1 className='text-white'>fixed text</h1>
-          </div>
+      <section className='sm:px-20 xl:px-36 px-10 bg-bg flex w-full flex-col sm:flex-row justify-evenly pt-14 pb-14'>
+        <div className='w-full sm:w-[55%] flex flex-col justify-center items-center relative'>
+        <Swiper
+          effect={'cards'}
+          grabCursor={true}
+          modules={[EffectCards,Autoplay]}
+          autoplay={{ delay: 3500 }}
+          className="mySwiper"
+        >
+          {events.map((event,index) => (
+            <SwiperSlide key={index}>
+              <img src={event} alt="event" className='w-full h-full'/>
+            </SwiperSlide>
+          ))}
+        </Swiper>
         </div>
-      </section> */}
-      <section className='min-h-[100vh] sm:px-20 xl:px-36 px-10 bg-bg'>
-
+        <div className='w-full sm:w-[45%] flex flex-col justify-center gap-14 sm:items-end items-center pt-10 sm:pt-0'>
+          <h1 className='text-white sm:text-right font-poppins font-semibold text-[44px] text-center'>Our Recent Events</h1>
+          <p className='text-gray-400 sm:text-right w-full text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate hic natus  doloribus! Magnam eos ipsa, nam pariatur fuga dolores dolorem ipsam quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora at quibusdam illo eaque. At, expedita! Quidem esse facilis ullam debitis, sunt eligendi. Error reiciendis a non eum quas dolore voluptas.</p>
+          <Link to='/pastEvent' className='green-pink-gradient rounded-full p-3 pr-10 pl-10 w-fit'>View All Events</Link>
+        </div>
       </section>
       
     </div>

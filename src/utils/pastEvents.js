@@ -5,5 +5,5 @@ import ValueFit from '../assets/eventImages/valueFit.jpg'
 import Kickstart from '../assets/eventImages/kickstartStartup.jpg'
 
 export const events=[
-    WebWisdom,CodeXelerate,SquidCarnival,ValueFit,Kickstart
+    CodeXelerate,SquidCarnival,ValueFit,Kickstart,WebWisdom
 ]
