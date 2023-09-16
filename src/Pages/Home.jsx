@@ -2,6 +2,7 @@ import React from 'react'
 import heroBg from '../assets/bg/bgHero.png'
 import { Link } from 'react-router-dom';
 import '../styles/home.css'
+import SectionBg1 from "../assets/bg/sectionBg1.png"
 
 import { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -40,7 +41,10 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className='sm:px-20 xl:px-36 px-10 bg-bg flex w-full flex-col sm:flex-row justify-evenly pt-14 pb-14'>
+      <section className='sm:px-20 xl:px-36 px-10 bg-bg w-full pt-14 pb-14 h-[100vh]'>
+
+      </section>
+      <section className='sm:px-20 xl:px-36 px-10 bg-bg flex w-full flex-col sm:flex-row justify-evenly pt-14 pb-14 h-fit second-section'>
         <div className='w-full sm:w-[55%] flex flex-col justify-center items-center relative'>
         <Swiper
           effect={'cards'}
