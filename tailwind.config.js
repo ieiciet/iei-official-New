@@ -17,6 +17,9 @@ export default {
         'xs': '550px',
       }
     },
+    dropShadow: {
+      'section': '0px -20px 10px rgba(173, 173, 173, 0.5)',
+    },
     fontFamily: {
       'sans': ['Roboto', 'sans-serif'],
       'serif': ['Roboto Slab', 'serif'],
