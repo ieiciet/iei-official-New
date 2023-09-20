@@ -29,7 +29,7 @@ export default function NavBar() {
             <div></div>
         </div>
         <div className='sm:hidden flex flex-1 items-center p-4 justify-between'>
-          <div className='flex flex-row items-center gap-1 bg-nav p-2 rounded-lg bg-opacity-50 backdrop-blur-sm'>
+          <div className='flex flex-row items-center gap-1 bg-nav p-2 rounded-lg bg-opacity-30 backdrop-blur-sm'>
             <div className='h-10 w-10'><img src={logo} alt=""/></div>
             <RxCross2 className='text-white'/>
             <div className='h-10 w-10 mt-[7px]'><img src={chitkaraLogo} alt=""/></div>
