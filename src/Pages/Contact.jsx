@@ -1,77 +1,44 @@
 import React from 'react';
 
 function Contact() {
-  return (
-    
-     <main className="relative py-28 bg-gray-900" style={{backgroundColor: "#1d1a1a"}} >
-            <div className="relative z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
-                <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
-                    <h3 className="text-cyan-400 font-semibold">
-                        {/* Contact */}
-                    </h3>
-                    <p className="text-white text-3xl font-semibold sm:text-4xl">
-                        Get in touch
-                    </p>
-                    <p className="text-gray-300">
-                        We’d love to hear from you! Please fill out the form bellow.
-                    </p>
-                </div>
-                <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
-                    <form
-                        onSubmit={(e) => e.preventDefault()}
-                        className="space-y-5"
-                    >
-                        <div>
-                            <label className="font-medium">
-                                Full name
-                            </label>
-                            <input
-                                type="text"
-                                required
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                            />
-                        </div>
-                        <div>
-                            <label className="font-medium">
-                                Email
-                            </label>
-                            <input
-                                type="email"
-                                required
-                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                            />
-                        </div>
-                        <div>
-                            <label className="font-medium">
-                                Phone number
-                            </label>
-                            <div className="relative mt-2">
-                             
-                                <input
-                                    type="number"
-                                    style={{padding:"1%"}}
-                                    required
-                                    className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                                />
-                            </div>
-                        </div>
-                        <div>
-                            <label className="font-medium">
-                                Message
-                            </label>
-                            <textarea required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"></textarea>
-                        </div>
-                        <button
-                            className="w-full px-4 py-2 text-white font-medium bg-gray-800 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150"
-                        >
-                            Submit
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div className='absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div>
-        </main>
-  );
+    return (
+
+        <div className='min-h-screen bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
+            <section className="flex flex-col justify-center items-center py-10">
+            <h1 className="text-white font-black md:text-[46px] sm:text-[30px] xs:text-[25px] text-[30px] font-sans">
+            Get in touch
+            </h1>
+            <h1 className="sm:text-[16px] text-[12px] text-secondary uppercase tracking-wider">
+                <span className='text-secondary'>We’d love to hear from you! Please fill out the form bellow.</span>
+            </h1>
+                <form action="#" className="space-y-8 w-full md:w-8/12">
+                    <div>
+                        <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-300">Name</label>
+                        <input type="text" id="name" className="shadow-sm  border text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Name" required />
+                    </div>
+                    <div>
+                        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-300">Your email</label>
+                        <input type="email" id="email" className="shadow-sm border text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@chitkara.edu.in" required />
+                    </div>
+                    <div>
+                        <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-300">Subject</label>
+                        <input type="text" id="subject" className="block p-3 w-full text-sm rounded-lg border  shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Let us know how we can help you" required />
+                    </div>
+                    <div className="sm:col-span-2">
+                        <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-300">Your message</label>
+                        <textarea id="message" rows="6" className="block p-2.5 w-full text-sm  rounded-lg shadow-sm border  focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..." />
+                    </div>
+                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white bg-orange-500 rounded-xl hover:bg-orange-700">
+                        Send message
+                    </button>
+
+                </form>
+
+            </section>
+        </div>
+
+
+    );
 }
 
 export default Contact;
