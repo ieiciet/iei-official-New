@@ -43,9 +43,10 @@ export default function NavBar() {
         <div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}>
           <ul className='list-none flex justify-end items-start flex-col gap-4  bg-nav bg-opacity-80 backdrop-blur-sm p-6 rounded-lg'>
             <Link to='/' relative='path' className='hover:text-orange-500 text-white'>Home</Link>
+            <Link to='/event' relative='path' className='hover:text-orange-500 text-white'>Events</Link>
             <Link to='/teamIei' relative='path' className='hover:text-orange-500 text-white'>Teams</Link>
-            <Link to='/upcomingEvent' relative='path' className='hover:text-orange-500 text-white'>Upcoming Events</Link>
-            <Link to='/pastEvent' relative='path' className='hover:text-orange-500 text-white'>Past Events</Link>
+            {/* <Link to='/upcomingEvent' relative='path' className='hover:text-orange-500 text-white'>Upcoming Events</Link>
+            <Link to='/pastEvent' relative='path' className='hover:text-orange-500 text-white'>Past Events</Link> */}
             <Link to='/eventgallery' relative='path' className='hover:text-orange-500 text-white'>Event Gallery</Link>
             <Link to='/contact' relative='path' className='hover:text-orange-500 text-white'>Contact</Link>
           </ul>
