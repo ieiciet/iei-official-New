@@ -10,6 +10,7 @@ import Contact from './Pages/Contact';
 import NavBar from './components/NavBar';
 import Event from './Pages/Event';
 import Registration from './Pages/Registration';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="/eventgallery" element={<EventGallery/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
+    <Footer/>
     </BrowserRouter>
     
   )
