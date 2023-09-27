@@ -9,6 +9,7 @@ import EventGallery from './Pages/EventGallery';
 import Contact from './Pages/Contact';
 import NavBar from './components/NavBar';
 import Event from './Pages/Event';
+import Registration from './Pages/Registration';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/event" element={<Event/>}/>
+      <Route path="/event/registration" element={<Registration/>}/>
       <Route path="/upcomingEvent" element={<UpcomingEvent/>}/>
       <Route path="/pastEvent" element={<PastEvent/>}/>
       <Route path="/teamIei" element={<TeamIei/>}/>
