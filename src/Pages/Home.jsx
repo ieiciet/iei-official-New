@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import heroBg from '../assets/bg/bgHero.png'
 import { Link } from 'react-router-dom';
 import '../styles/home.css'
 import SectionBg1 from "../assets/bg/sectionBg1.png"
 import RecentEvents from '../components/recentEvents';
-
+import '../App.css'
+import Loader from '../Loader';
 
 // end slider
 
@@ -12,8 +13,18 @@ import {events} from '../utils/pastEvents'
 
 
 function Home() {
+  const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+    // Simulate data loading or any async operation
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
   return (
+<>
+{loading ? <Loader /> : (
+
     <div className='min-h-[100vh] relative z-[-2] bg-bg main-section'>
       <img src={heroBg} alt="" className='absolute h-screen w-screen object-cover z-[-1]' />
       <section className='h-[100vh] w-full'>
@@ -45,6 +56,8 @@ function Home() {
       <RecentEvents/>
       
     </div>
+)}
+    </>
   )
 }
 

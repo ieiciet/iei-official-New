@@ -1,7 +1,20 @@
-import React from 'react';
-
+import React, { useState, useEffect } from 'react';
+import '../App.css'
+import Loader from '../Loader';
 function Contact() {
+    const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate data loading or any async operation
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
     return (
+<>
+
+
+{loading ? <Loader /> : (
 
         <div className='min-h-screen bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
             <section className="flex flex-col justify-center items-center py-10">
@@ -36,8 +49,9 @@ function Contact() {
 
             </section>
         </div>
+)}
 
-
+</>
     );
 }
 

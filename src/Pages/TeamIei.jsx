@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import '../styles/team.css'
+import '../App.css'
 import TeamName from '../components/TeamName'
 import MemberCard from '../components/MemberCard'
 import {webTeam} from '../utils/teamData'
-
+import Loader from '../Loader';
 function TeamIei() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate data loading or any async operation
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
   return (
+    <>
+              {loading ? <Loader /> : (
+
     <div className='min-h-screen bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
       <h1 className="sm:text-[16px] text-[12px] text-secondary uppercase tracking-wider">
         <span className='text-secondary'>Meet Our Team</span>
@@ -26,6 +38,8 @@ function TeamIei() {
         </div>
       </section>
     </div>
+              )}
+    </>
   )
 }
 

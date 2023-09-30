@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
@@ -11,9 +11,22 @@ import NavBar from './components/NavBar';
 import Event from './Pages/Event';
 import Registration from './Pages/Registration';
 import Footer from './components/Footer';
-
+import Loader from './Loader';
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate data loading or any async operation
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
+
+  
   return (
+    <>
+          {loading ? <Loader /> : (
+<>
     <BrowserRouter>
     <NavBar/>
     <Routes>
@@ -28,7 +41,9 @@ function App() {
     </Routes>
     <Footer/>
     </BrowserRouter>
-    
+    </>
+          )}
+    </>
   )
 }
 
