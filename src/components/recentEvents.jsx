@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
 import {events} from '../utils/pastEvents'
 
-const recentEvents = () => {
+const RecentEvents = () => {
     SwiperCore.use([Autoplay,EffectCards]);
   return (
     <section className='sm:px-20 xl:px-36 px-10 bg-bg flex w-full flex-col sm:flex-row justify-evenly pt-14 pb-14 h-fit second-section'>
@@ -42,4 +42,4 @@ const recentEvents = () => {
   )
 }
 
-export default recentEvents
+export default RecentEvents
