@@ -4,7 +4,7 @@ import { accordions } from "../assets/Data";
 
 export const Faq = () => {
   return (
-    <div className="wrapper mt-20 text-white">
+    <div className="wrapper text-white">
       <h1 className="text-center text-5xl font-semibold ">FAQ</h1>
       <p className='text-center mb-10 text-gray-500'>Frequently Asked Questions</p>
 
