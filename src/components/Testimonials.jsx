@@ -55,7 +55,7 @@ function Testimonials() {
                     <div className="flex items-center mt-8">
                       <div className="flex-shrink-0">
                         <img
-                          className="object-cover rounded-full w-16 h-16 border-4 border-white"
+                          className="object-cover rounded-full w-16 h-16 border-4"
                           src={testimonial.imageSrc}
                           alt={testimonial.author}
                         />

@@ -16,7 +16,7 @@ const Accordion = ({ question, answer }) => {
         onClick={() => setShow(!show)}
         className="flex justify-between items-center cursor-pointer"
       >
-        <h1 className="text-xl font-semibold text-green">{question}</h1>
+        <h1 className="text-lg font-semibold text-green">{question}</h1>
         <BiChevronDown
           className={`text-3xl transition-all duration-500 ${
             show ? "rotate-180" : ""
