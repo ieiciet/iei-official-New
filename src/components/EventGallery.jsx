@@ -36,7 +36,7 @@ const EventGallery = () => {
       <div className='flex justify-center'>
         <Link
           to="/EventGallery"
-          className="block w-full md:w-auto rounded border px-4 md:px-6 py-2 text-sm md:text-base font-medium text-white btn"
+          className="block md:w-auto rounded border px-4 md:px-6 py-2 text-sm md:text-base font-medium text-white btn"
         >
           Explore More
         </Link>
