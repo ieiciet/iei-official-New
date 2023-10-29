@@ -15,7 +15,7 @@ import {events} from '../utils/pastEvents'
 const RecentEvents = () => {
     SwiperCore.use([Autoplay,EffectCards]);
   return (
-    <section className='sm:px-20 xl:px-36 px-10 bg-bg flex w-full flex-col sm:flex-row justify-evenly pt-14 pb-14 h-fit second-section'>
+    <section className='sm:px-20 xl:px-36 px-10 flex w-full flex-col sm:flex-row justify-evenly pt-14 pb-14 h-fit second-section'>
         <div className='w-full sm:w-[55%] flex flex-col justify-center items-center relative'>
         <Swiper
           effect={'cards'}
@@ -35,7 +35,7 @@ const RecentEvents = () => {
           <h1 className='text-white sm:text-right font-poppins font-semibold text-[44px] text-center'>Our Recent Events</h1>
           <p className='text-gray-400 sm:text-right w-full text-center'>As quoted by Benjamin Franklin "An investment in knowledge pays the best interest". Events are a simple way of providing information to others and gaining new experiences by conducting them. IE(I) Student Chapter, Chitkara University conducts various events that are not only informative but always give new hope to people to learn more and achieve great heights in life.</p>
           <>
-            <Link to='/pastEvent' className='green-pink-gradient rounded-full p-3 pr-10 pl-10 w-fit'>View All Events</Link>
+            <Link to='/pastEvent' className='ginline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 '>View All Events</Link>
           </>
         </div>
       </section>

@@ -11,7 +11,7 @@ export default function NavBar() {
   const [toggle, setToggle] = useState(false);
   // const [scroll, setScroll] = useState(false);
   return (
-    <nav className='sm:px-6 fixed w-full z-[3] rounded-lg sm:rounded-none'>
+    <nav className='sm:px-6 fixed w-full z-[3] rounded-lg sm:rounded-none z-10'>
         <div className='flex-row items-center justify-between hidden sm:inline-flex bg-nav bg-opacity-50 backdrop-blur-sm w-full rounded-lg px-4 py-2 mt-4'>
             <div className='flex flex-row items-center gap-1'>
               <div className='h-10 w-10'><img src={logo} alt=""/></div>

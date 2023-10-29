@@ -37,10 +37,10 @@ function Testimonials() {
               {testimonialsData.map((testimonial, index) => (
                 <motion.div
                   key={index}
-                  className="flex flex-col overflow-hidden shadow-xl"
+                  className="flex flex-col overflow-hidden shadow-xl border border-white rounded-lg bg-white bg-opacity-20"
                   variants={quoteVariants}
                 >
-                  <div className="flex flex-col justify-between flex-1 p-6 bg-nav bg-opacity-50 backdrop-blur-sm lg:py-8 lg:px-7">
+                  <div className="flex flex-col justify-between flex-1 p-6 bg-opacity-70 lg:py-8 lg:px-7">
                     <div className="flex-1">
                       <motion.blockquote
                         className="flex-1 mt-8"
@@ -53,13 +53,15 @@ function Testimonials() {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src={testimonial.imageSrc}
-                        alt=""
-                      />
+                      <div className="flex-shrink-0">
+                        <img
+                          className="object-cover rounded-full w-16 h-16 border-4 border-white"
+                          src={testimonial.imageSrc}
+                          alt={testimonial.author}
+                        />
+                      </div>
                       <div className="ml-4">
-                        <p className="text-base font-bold text-white font-pj">
+                        <p className="text-base font-semibold text-white font-pj">
                           {testimonial.author}
                         </p>
                         <p className="mt-0.5 text-sm font-pj text-white">
