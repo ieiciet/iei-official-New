@@ -8,7 +8,7 @@ function PastEvent() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    const API_URL = 'https://iei-api.cyclic.app/event/past/';
+    const API_URL = 'http://localhost:5000/event/past';
 
     fetch(API_URL)
       .then((response) => response.json())
