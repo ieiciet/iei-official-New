@@ -1,35 +1,52 @@
-import React from 'react'
-import heroBg from '../assets/bg/bgHero.png'
+import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/background-animation.css';
+import '../styles/home.css'
 
-function Hero() {
+const Hero = () => {
   return (
-    <div>
-         <img src={heroBg} alt="" className='absolute h-screen w-screen object-cover z-[-1]' />
-      <section className='h-[100vh] w-full'>
-        <div className='flex flex-col justify-center items-center gap-6 h-full'>
-          <div className='xs:w-[550px] w-[400px]'>
-            <h1 className='text-white font-extrabold xs:text-[46px] text-[38px] text-center font-poppins'>IEI - One of the best technical club Lorem.</h1>
-          </div>
-          <div className='text-white sm:w-[600px] w-[400px] text-center'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate hic natus  doloribus! Magnam eos ipsa, nam pariatur fuga dolores dolorem ipsam quae?
-          </div>
-          <div className='flex flex-row justify-center items-center gap-5'>
-            <Link to='/event'>
-              <button className='bg-gradient-to-r from-yellow-300 to-white rounded-full px-4 py-2 text-black w-[120px] text-center'>
-                Join IE(I)
-              </button>
-            </Link>
-            <Link to='/about'>
-              <button className='bg-black rounded-full px-4 py-2 text-white w-[120px] text-center hover:shadow-md'>
-                About
-              </button>
-            </Link>
-          </div>
+    <section className="relative block md:flex bg-animation h-[100vh] flex items-center justify-center ">
+      <div className="area -z-50 absolute w-full h-full">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div className="max-w-screen-xl px-4 py-16 lg:py-32 lg:flex lg:flex-col lg:items-center text-white">
+        <div className='w-full md:w-[550px] overflow-hidden'>
+          <h1 className='text-white text-4xl md:text-5xl text-center font-poppins font-black	'>
+            IE(I) CUIET CSE STUDENT'S CHAPTER
+          </h1>
         </div>
-      </section>
-    </div>
+        <div className='text-white w-full md:w-[600px] text-center mt-4'>
+          IE(I) Student Chapter: Chitkara's technical society promoting innovation and technical excellence. Inspire, Learn, Engineer, Innovate, Achieve!
+        </div>
+        <div className="mt-6 md:mt-8 flex flex-wrap justify-center gap-4">
+          <Link
+            to="/event"
+            className="block w-full md:w-auto rounded border gradiant px-4 md:px-6 py-2 text-sm md:text-base font-medium"
+          >
+            Upcoming Event
+          </Link>
+          <Link
+            to="/EventGallery"
+            className="block w-full md:w-auto rounded border px-4 md:px-6 py-2 text-sm md:text-base font-medium text-white btn"
+          >
+            Explore
+          </Link>
+        </div>
+      </div>
+    </section>
   )
 }
 
-export default Hero
+export default Hero;

@@ -26,6 +26,8 @@ export default {
       'poppins': ['Poppins', 'sans-serif'],
       'mansalva': ['Mansalva', 'cursive'],
       'hiMelody': ['Hi Melody', 'cursive'],
+      'Pixelify' : ['Pixelify Sans', 'cursive'],
+      'Orbitron' : ['Orbitron', 'sans-serif']
     }
   },
   plugins: [],
