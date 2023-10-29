@@ -6,7 +6,7 @@ function UpcomingEvent() {
   const [eventData, setEventData] = useState([]);
 
   useEffect(() => {
-    const apiUrl = 'https://iei-api.cyclic.app/event/upcoming/';
+    const apiUrl = 'https://iei-api.cyclic.app/event/upcoming';
 
     axios.get(apiUrl)
       .then((response) => {
@@ -18,7 +18,7 @@ function UpcomingEvent() {
   }, []);
 
   return (
-    <div className='min-h-full bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24'>
+    <div className='min-h-full bg-[#121212] sm:px-20 xl:px-36 px-10 pb-10 pt-24 text-gray-400'>
       <h2 className="text-white font-black md:text-6xl sm:text-5xl xs:text-4xl text-3xl font-sans mb-4 mt-4">
         Events
       </h2>
@@ -39,21 +39,21 @@ function UpcomingEvent() {
                 <img className="object-contain w-full h-72 md:h-auto md:w-72 md:rounded-none md:rounded-l-lg" src={event.Image} alt="" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
                   <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EventName: {event.EventName}</h3>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal">
                     {event.description}
                   </p>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal">
                     Venue: {event.Venue}
                   </p>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal">
                     Date: {event.Date}
                   </p>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal">
                     Time: {event.Time}
                   </p>
                   <div className="flex justify-start">
                     <Link
-                      to="/event/registration"
+                      to={event.Link} target='_blank'
                       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-orange-500 rounded-xl hover:bg-orange-700"
                     >
                       Register Now
