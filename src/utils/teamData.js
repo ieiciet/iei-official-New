@@ -1,4 +1,219 @@
-export const webTeam=[
+export const coreTeam=[
+    {
+      name:"Shinepreet",
+      position:"President",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698692326/shine_nlyjdy.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/shinepreet-kaur-9ab11b224/"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/shine__07_/"
+        },
+        {
+          name:"Email",
+          url:"mailto:shinepreet1308.be21@chitkara.edu.in"
+        }
+      ]
+    },
+    {
+      name:"Vanshika",
+      position:"Vice President",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698782029/Vanshika-mukhi_bmqtyo.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/vanshika-mukhi-910b9a220/"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/vanshiikaa_04/"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/vanshiika"
+        }
+      ]
+    },
+    {
+      name:"Satvik",
+      position:"GS",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693460/satvik_iezore.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/satvik-singh-363080290"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/_satvikk/"
+        },
+        {
+          name:"Email",
+          url:"mailto:satvik1286.be21@chitkara.edu.in"
+        }
+      ]
+    },
+    {
+      name:"Bhavika",
+      position:"JS",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698693184/bhavika_lkvffr.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/bhavika-bhateja-926870168?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/bhavika.bhateja/"
+        },
+        {
+          name:"Email",
+          url:"mailto:bhavika0361.be21@chitkara.edu.in"
+        }
+      ]
+    }, 
+  ]
+
+  export const Heads=[
+    {
+      name:"Harsh",
+      position:"Web Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698697286/WhatsApp_Image_2023-10-31_at_1.50.58_AM_bfmoid.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"http://linkedin.com/in/harshraj1"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/harshhh.2/"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/harshraj29"
+        }
+      ]
+    },
+    {
+      name:"Tamanna",
+      position:"Graphics Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698692319/Tamanna_-_Tamanna_y3r8oa.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"www.linkedin.com/in/tamanna-singh1002"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/tamanna_.singh_/"
+        },
+        {
+          name:"Email",
+          url:"mailto:tamanna1847.be21@chitkara.edu.in"
+        }
+      ]
+    },
+    {
+      name:"Ananya",
+      position:"Creative Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698692323/Ananya_Soie_pzqlvy.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"#"
+        },
+        {
+          name:"Instagram",
+          url:"#"
+        },
+        {
+          name:"Email",
+          url:"#"
+        }
+      ]
+    },
+    {
+      name:"Dhruv",
+      position:"Outreach Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693750/Dhruv_q6wxb9.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"#"
+        },
+        {
+          name:"Instagram",
+          url:"#"
+        },
+        {
+          name:"Email",
+          url:"#"
+        }
+      ]
+    }, 
+    {
+      name:"Vivek",
+      position:"Media Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693678/vivek_sharma_vji00p.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/vivek-sharma-0097a2218/"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/vivek1220_/"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/viveksharma1220"
+        }
+      ]
+    }, 
+    {
+      name:"Vanshika",
+      position:"Social Media Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698692322/Vanshika_dhiman_n30ju7.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"#"
+        },
+        {
+          name:"Instagram",
+          url:"#"
+        },
+        {
+          name:"Email",
+          url:"#"
+        }
+      ]
+    }, 
+    {
+      name:"Sukhraj Singh",
+      position:"Logestic Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698692346/Sukhraj_vucvxm.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"#"
+        },
+        {
+          name:"Instagram",
+          url:"#"
+        },
+        {
+          name:"Email",
+          url:"mailto:sukhraj1404.be21@chitkara.edu.in "
+        }
+      ]
+    }, 
+  ]
+
+  export const webDeveloper=[
     {
       name:"Vansh Arora",
       position:"web executive",
@@ -9,7 +224,7 @@ export const webTeam=[
           url:"http://linkedin.com/in/developer-vansh"
         },
         {
-          name:"github",
+          name:"Github",
           url:"https://github.com/VanshArora08"
         },
         {
@@ -19,118 +234,60 @@ export const webTeam=[
       ]
     },
     {
-      name:"Vansh Arora",
-      position:"web executive",
-      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
+      name:"Aryan Shubbu",
+      position:"Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_1.48.12_AM_jabinq.jpg",
       socialLinks:[
         {
           name:"linkedIn",
-          url:"http://linkedin.com/in/developer-vansh"
+          url:"https://www.linkedin.com/in/aryan-shubbu-14192622a"
         },
         {
-          name:"github",
-          url:"https://github.com/VanshArora08"
+          name:"Github",
+          url:"https://github.com/LoneExpert"
         },
         {
           name:"Email",
-          url:"mailto:vansh1499.be21@chitkara.edu.in"
+          url:"mailto:aryan0307.be21@chitkara.edu.in"
         }
       ]
     },
     {
-      name:"Vansh Arora",
+      name:"Harsimran Singh",
       position:"web executive",
-      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_8.13.49_AM_qthrfk.jpg",
       socialLinks:[
         {
           name:"linkedIn",
-          url:"http://linkedin.com/in/developer-vansh"
+          url:"#"
         },
         {
-          name:"github",
-          url:"https://github.com/VanshArora08"
+          name:"Github",
+          url:"https://github.com/Harsimran-19"
         },
         {
           name:"Email",
-          url:"mailto:vansh1499.be21@chitkara.edu.in"
+          url:"mailto:harsimran3790.be21@chitkara.edu.in"
         }
       ]
     },
     {
-      name:"Vansh Arora",
+      name:"Munish Goel",
       position:"web executive",
-      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781946/WhatsApp_Image_2023-10-31_at_8.09.32_AM_bcuaks.jpg",
       socialLinks:[
         {
           name:"linkedIn",
-          url:"http://linkedin.com/in/developer-vansh"
+          url:"#"
         },
         {
-          name:"github",
-          url:"https://github.com/VanshArora08"
-        },
-        {
-          name:"Email",
-          url:"mailto:vansh1499.be21@chitkara.edu.in"
-        }
-      ]
-    },
-    {
-      name:"Vansh Arora",
-      position:"web executive",
-      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"http://linkedin.com/in/developer-vansh"
-        },
-        {
-          name:"github",
-          url:"https://github.com/VanshArora08"
+          name:"Github",
+          url:"https://github.com/MG2356"
         },
         {
           name:"Email",
-          url:"mailto:vansh1499.be21@chitkara.edu.in"
+          url:"mailto:munish4506.be21@chitkara.edu.in"
         }
       ]
     },
-    {
-      name:"Vansh Arora",
-      position:"web executive",
-      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"http://linkedin.com/in/developer-vansh"
-        },
-        {
-          name:"github",
-          url:"https://github.com/VanshArora08"
-        },
-        {
-          name:"Email",
-          url:"mailto:vansh1499.be21@chitkara.edu.in"
-        }
-      ]
-    },
-    {
-      name:"Vansh Arora",
-      position:"web executive",
-      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"http://linkedin.com/in/developer-vansh"
-        },
-        {
-          name:"github",
-          url:"https://github.com/VanshArora08"
-        },
-        {
-          name:"Email",
-          url:"mailto:vansh1499.be21@chitkara.edu.in"
-        }
-      ]
-    },
-    
   ]
