@@ -57,7 +57,6 @@ function Testimonials() {
                         <img
                           className="object-cover rounded-full w-16 h-16 border-4"
                           src={testimonial.imageSrc}
-                          alt={testimonial.author}
                         />
                       </div>
                       <div className="ml-4">
