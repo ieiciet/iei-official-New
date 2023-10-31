@@ -25,12 +25,11 @@ function TeamIei() {
             <h1 className='text-[18px] font-poppins font-normal text-gray-400 text-center sm:text-left'>Lead, Society IE(I) CSE Student Chapter</h1>
             <p className='text-[16px] text-center sm:text-left'>Dr. Yogesh is an Assistant Professor-III in the Department of CSE at Chitkara University, Punjab, India, with over 10 years of teaching experience. He has an impressive track record, having filed 27 patents and published 56 research papers in renowned international conferences and journals indexed in SCI/Scopus. In 2021, he was honored with the "Best Researcher Award" at the International Scientist Awards on Engineering, Science, and Medicine. In 2017, he won the Best Paper Award at the IEEE conference ICRITO. Dr. Yogesh has also earned a Digital Badge from IBM.</p>
             <div className='flex flex-row justify-center items-center xs:gap-4 gap-10 mt-3'>
-            <a href={coreTeam[0].socialLinks[0].url} target='_blank' className='cursor-pointer'>
+            <a href="https://www.linkedin.com/in/dr--yogesh/" target='_blank' className='cursor-pointer'>
               <FaLinkedin className='text-blue-600 text-[26px]'/>
             </a>
           
-            <a href={coreTeam[0].socialLinks[2].url} target='_blank' className='cursor-pointer'>
-              {/* <FaLinkedin className='bg-blue-600'/> */}
+            <a href="mailto:yogesh.1135@chitkara.edu.in" target='_blank' className='cursor-pointer'>
               <HiOutlineMail className='text-green-300 text-[26px]'/>
             </a>
           </div>
