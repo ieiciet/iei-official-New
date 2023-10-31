@@ -51,7 +51,7 @@ function TeamIei() {
         </div>
       </section>
       <section className="flex flex-col justify-center items-center py-10">
-        <TeamName name="web Developer"/>
+        <TeamName name="Web Developer"/>
         <div className='mt-20 flex flex-wrap gap-10 justify-center'>
           {webDeveloper.map((member, index) => (<MemberCard name={member.name} imgUrl={member.imgUrl} position={member.position} socialLinks={member.socialLinks} index={index} key={index}/>))}
         </div>
