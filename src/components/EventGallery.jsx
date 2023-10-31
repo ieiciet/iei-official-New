@@ -7,7 +7,7 @@ const EventGallery = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    const API_URL = 'https://iei-api.cyclic.app/gallery';
+    const API_URL = 'https://iei-api-4owj.onrender.com/gallery';
     axios
       .get(API_URL)
       .then((response) => {

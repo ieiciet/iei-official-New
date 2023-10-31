@@ -6,7 +6,7 @@ function UpcomingEvent() {
   const [eventData, setEventData] = useState([]);
 
   useEffect(() => {
-    const apiUrl = 'https://iei-api.cyclic.app/event/upcoming';
+    const apiUrl = 'https://iei-api-4owj.onrender.com/event/upcoming';
 
     axios.get(apiUrl)
       .then((response) => {
