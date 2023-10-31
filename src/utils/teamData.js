@@ -21,7 +21,7 @@ export const coreTeam=[
     {
       name:"Vanshika",
       position:"Vice President",
-      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698693368/vanshika_z9ebpy.jpg",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698782029/Vanshika-mukhi_bmqtyo.jpg",
       socialLinks:[
         {
           name:"linkedIn",
@@ -211,4 +211,83 @@ export const coreTeam=[
         }
       ]
     }, 
+  ]
+
+  export const webDeveloper=[
+    {
+      name:"Vansh Arora",
+      position:"web executive",
+      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"http://linkedin.com/in/developer-vansh"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/VanshArora08"
+        },
+        {
+          name:"Email",
+          url:"mailto:vansh1499.be21@chitkara.edu.in"
+        }
+      ]
+    },
+    {
+      name:"Aryan Shubbu",
+      position:"Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_1.48.12_AM_jabinq.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/aryan-shubbu-14192622a"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/LoneExpert"
+        },
+        {
+          name:"Email",
+          url:"mailto:aryan0307.be21@chitkara.edu.in"
+        }
+      ]
+    },
+    {
+      name:"Harsimran Singh",
+      position:"web executive",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_8.13.49_AM_qthrfk.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"#"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/Harsimran-19"
+        },
+        {
+          name:"Email",
+          url:"mailto:harsimran3790.be21@chitkara.edu.in"
+        }
+      ]
+    },
+    {
+      name:"Munish Goel",
+      position:"web executive",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781946/WhatsApp_Image_2023-10-31_at_8.09.32_AM_bcuaks.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"#"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/MG2356"
+        },
+        {
+          name:"Email",
+          url:"mailto:munish4506.be21@chitkara.edu.in"
+        }
+      ]
+    },
   ]

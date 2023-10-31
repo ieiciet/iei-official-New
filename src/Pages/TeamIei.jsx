@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/team.css'
 import TeamName from '../components/TeamName'
 import MemberCard from '../components/MemberCard'
-import {coreTeam} from '../utils/teamData'
+import {coreTeam, webDeveloper} from '../utils/teamData'
 import {Heads} from '../utils/teamData'
 import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
@@ -23,7 +23,7 @@ function TeamIei() {
           <div className='w-full min-h-[40vh] text-white flex flex-col justify-evenly items-center sm:items-start gap-6'>
             <h1 className='text-[30px] font-poppins font-medium'>Dr. Yogesh</h1>
             <h1 className='text-[18px] font-poppins font-normal text-gray-400 text-center sm:text-left'>Lead, Society IE(I) CSE Student Chapter</h1>
-            <p className='text-[16px] text-center sm:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nobis est voluptates commodi possimus suscipit laboriosam accusantium, cupiditate atque quis a vitae consequuntur vel, aliquam mollitia soluta nisi! Dolore, error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo necessitatibus assumenda quisquam odio error ab voluptatibus earum numquam, tempora quas cupiditate rerum in veniam eaque cum asperiores magni ipsam.</p>
+            <p className='text-[16px] text-center sm:text-left'>Dr. Yogesh is an Assistant Professor-III in the Department of CSE at Chitkara University, Punjab, India, with over 10 years of teaching experience. He has an impressive track record, having filed 27 patents and published 56 research papers in renowned international conferences and journals indexed in SCI/Scopus. In 2021, he was honored with the "Best Researcher Award" at the International Scientist Awards on Engineering, Science, and Medicine. In 2017, he won the Best Paper Award at the IEEE conference ICRITO. Dr. Yogesh has also earned a Digital Badge from IBM.</p>
             <div className='flex flex-row justify-center items-center xs:gap-4 gap-10 mt-3'>
             <a href={coreTeam[0].socialLinks[0].url} target='_blank' className='cursor-pointer'>
               <FaLinkedin className='text-blue-600 text-[26px]'/>
@@ -48,6 +48,12 @@ function TeamIei() {
         <TeamName name="Heads"/>
         <div className='mt-20 flex flex-wrap gap-10 justify-center'>
           {Heads.map((member, index) => (<MemberCard name={member.name} imgUrl={member.imgUrl} position={member.position} socialLinks={member.socialLinks} index={index} key={index}/>))}
+        </div>
+      </section>
+      <section className="flex flex-col justify-center items-center py-10">
+        <TeamName name="web Developer"/>
+        <div className='mt-20 flex flex-wrap gap-10 justify-center'>
+          {webDeveloper.map((member, index) => (<MemberCard name={member.name} imgUrl={member.imgUrl} position={member.position} socialLinks={member.socialLinks} index={index} key={index}/>))}
         </div>
       </section>
     </div>
