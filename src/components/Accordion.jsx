@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-
-/* import react-icons */
 import { BiChevronDown } from "react-icons/bi";
-
-/* import framer-motion */
 import { motion, AnimatePresence } from "framer-motion";
 
 const Accordion = ({ question, answer }) => {
@@ -34,7 +30,12 @@ const Accordion = ({ question, answer }) => {
             transition={{ duration: 0.3 }}
             className="overflow-clip"
           >
-            <p className="pt-3 text-sm md:text-base text-gray-400">{answer}</p>
+            <ul className="list-disc pl-5 pt-3 text-sm md:text-base text-gray-400">
+              {/* Split the answer by lines and map through them */}
+              {answer.split('\n').map((line, index) => (
+                <li key={index}>{line.trim()}</li>
+              ))}
+            </ul>
           </motion.div>
         )}
       </AnimatePresence>

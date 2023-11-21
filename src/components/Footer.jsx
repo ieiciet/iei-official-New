@@ -19,16 +19,16 @@ const Footer = () => {
                         </h5>
                         <div className="mt-6 lg:mb-0 mb-6">
                             <div className="flex space-x-2 text-2xl">
-                                <Link to="#" className="text-pink-400 hover:text-pink-600">
+                                <Link to="https://www.instagram.com/ieicuiet/" target='_blank' className="text-pink-400 hover:text-pink-600">
                                     <i className="fa-brands fa-instagram"></i>
                                 </Link>
-                                <Link to="#" className="text-blue-400 hover:text-blue-600">
+                                <Link to="https://www.facebook.com/people/Iei-Cuiet/" target='_blank' className="text-blue-400 hover:text-blue-600">
                                     <i className="fab fa-facebook-square"></i>
                                 </Link>
-                                <Link to="#" className="text-blue-400 hover:text-blue-600">
+                                <Link to="https://www.linkedin.com/company/ieichandigarh/" target='_blank' className="text-blue-400 hover:text-blue-600">
                                     <i className="fa-brands fa-linkedin"></i>
                                 </Link>
-                                <Link to="#" className="text-gray-400 hover:text-gray-600">
+                                <Link to="https://github.com/ieiciet" target='_blank' className="text-gray-400 hover:text-gray-600">
                                     <i className="fab fa-github"></i>
                                 </Link>
                             </div>

@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="max-w-screen-xl px-4 py-16 lg:py-32 lg:flex lg:flex-col lg:items-center text-white">
         <div className='w-full md:w-[550px] overflow-hidden'>
           <h1 className='text-white text-4xl md:text-5xl text-center font-poppins font-black	'>
-            IE(I) CUIET CSE STUDENT'S CHAPTER
+            IE(I) CUIET CSE STUDENT'S CHAPTER  Punjab
           </h1>
         </div>
         <div className='text-white w-full md:w-[600px] text-center mt-4'>

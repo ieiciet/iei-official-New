@@ -12,9 +12,9 @@ function Home() {
       <Hero />
       <Abouttemp />
       <RecentEvents />
-      <section className="sm:px-20 xl:px-36 px-10  w-full pt-14 pb-14 h-auto">
+      {/* <section className="sm:px-20 xl:px-36 px-10  w-full pt-14 pb-14 h-auto">
         <Testimonials />
-      </section>
+      </section> */}
       <section className="sm:px-20 xl:px-36 px-10 w-full pt-14 pb-14 h-auto">
         <Faq />
       </section>
