@@ -39,7 +39,7 @@ export const coreTeam=[
     },
     {
       name:"Satvik",
-      position:"GS",
+      position:"General Secretary",
       imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693460/satvik_iezore.jpg",
       socialLinks:[
         {
@@ -58,7 +58,7 @@ export const coreTeam=[
     },
     {
       name:"Bhavika",
-      position:"JS",
+      position:"Joint Secretary",
       imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698693184/bhavika_lkvffr.jpg",
       socialLinks:[
         {
