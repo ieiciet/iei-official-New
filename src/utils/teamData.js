@@ -212,6 +212,142 @@ export const coreTeam=[
       ]
     }, 
   ]
+export const Co_Heads=[
+    {
+      name:"Jasleen Kaur",
+      position:"Web Co-Head",
+      imgUrl:"https://ibb.co/j5DQ4Hr",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/jasleen-kaur-53483b25a/"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/_.jasleen.gujral._/"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/Jasleengujral01"
+        }
+      ]
+    },
+    {
+      name:"Abhinav",
+      position:"Graphics Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698692319/Tamanna_-_Tamanna_y3r8oa.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/abhinav-rawat-677170278?trk=contact-info"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/abhinav_x0x0?igshid=OGQ5ZDc2ODk2ZA"
+        },
+        {
+          name:"GitHub",
+          url:"#"
+        }
+      ]
+    },
+    {
+      name:"Parul",
+      position:"Creative Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698692323/Ananya_Soie_pzqlvy.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/parul-arora-833971277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/_parularoraa_/"
+        },
+        {
+          name:"GitHub",
+          url:"https://github.com/parularora1703"
+        }
+      ]
+    },
+    {
+      name:"Palak Kaushik",
+      position:"Outreach Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693750/Dhruv_q6wxb9.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/palak-kaushik-81672225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/itzpalak31_?igshid=YzAwZjE1ZTI0Zg=="
+        },
+        {
+          name:"GitHub",
+          url:"#"
+        }
+      ]
+    }, 
+    {
+      name:"Prince",
+      position:"Media Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693678/vivek_sharma_vji00p.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://shorturl.at/dghuQ"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/hey_princephutela?igshid=MTNiYzNiMzkwZA%3D%3D&utm_source=qr"
+        },
+        {
+          name:"Github",
+          url:"https://shorturl.at/gvyz2"
+        }
+      ]
+    }, 
+    {
+      name:"Pareen",
+      position:"Social Media Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698692322/Vanshika_dhiman_n30ju7.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/pareen-khirbat-40ab2b253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/_pareen_06?igsh=ZjQyemx5NmJ2cm1i&utm_source=qr"
+        },
+        {
+          name:"GitHub",
+          url:"#"
+        }
+      ]
+    }, 
+    {
+      name:"Jasneet Arora",
+      position:"Logestic Co-Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698692346/Sukhraj_vucvxm.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/jasneet-arora-28a581243/?originalSubdomain=in"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/jasneet_arora27/"
+        },
+        {
+          name:"GitHub",
+          url:"https://github.com/jasneet-arora27"
+        }
+      ]
+    }, 
+  ]
+
 
   export const webDeveloper=[
     {
