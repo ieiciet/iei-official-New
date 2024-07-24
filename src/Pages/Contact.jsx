@@ -1,19 +1,31 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
 
 function Contact() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
 
-    emailjs.sendForm('service_br29mb9', 'template_2q4hzfp', e.target, 'jS22_L9i_vJP7rTTW')
-      .then(
-        (result) => {
-          alert('Email sent successfully:', result);
-        },
-        (error) => {
-          alert('Email sending failed:', error);
-        }
-      );
+  const [result, setResult] = React.useState("");
+  const onSubmit = async (event) => {
+    
+    event.preventDefault();
+    setResult("Sending....");
+
+    const formData = new FormData(event.target);
+    formData.append("access_key", '80680ec6-9191-49b9-a6da-c08a5ddc2468');
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      alert("Error Sending emails.");
+      console.log("Error", data);
+      setResult(data.message);
+    }
   };
 
   return (
@@ -25,7 +37,7 @@ function Contact() {
         <h1 className="sm:text-[16px] text-[12px] text-secondary uppercase tracking-wider">
           <span className='text-secondary'>We’d love to hear from you! Please fill out the form below.</span>
         </h1>
-        <form onSubmit={handleSubmit} className="space-y-8 w-full md:w-8/12">
+        <form onSubmit={onSubmit} className="space-y-8 w-full md:w-8/12">
           <div>
             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-300">Name</label>
             <input type="text" id="name" name="name" className="shadow-sm border text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Name" required />

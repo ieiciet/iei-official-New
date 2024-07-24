@@ -79,21 +79,21 @@ export const coreTeam=[
 
   export const Heads=[
     {
-      name:"Harsh",
+      name:"Aryan Shubbu",
       position:"Web Head",
-      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698697286/WhatsApp_Image_2023-10-31_at_1.50.58_AM_bfmoid.jpg",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_1.48.12_AM_jabinq.jpg",
       socialLinks:[
         {
           name:"linkedIn",
-          url:"http://linkedin.com/in/harshraj1"
+          url:"https://www.linkedin.com/in/aryan-shubbu-14192622a"
         },
         {
           name:"Instagram",
-          url:"https://www.instagram.com/harshhh.2/"
+          url:"https://github.com/LoneExpert"
         },
         {
-          name:"Github",
-          url:"https://github.com/harshraj29"
+          name:"Email",
+          url:"mailto:aryan0307.be21@chitkara.edu.in"
         }
       ]
     },
@@ -174,9 +174,9 @@ export const coreTeam=[
       ]
     }, 
     {
-      name:"Vanshika",
+      name:"Lavish Garg",
       position:"Social Media Head",
-      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698692322/Vanshika_dhiman_n30ju7.jpg",
+      imgUrl:"#",
       socialLinks:[
         {
           name:"linkedIn",
@@ -234,21 +234,21 @@ export const coreTeam=[
       ]
     },
     {
-      name:"Aryan Shubbu",
+      name:"",
       position:"Co-Head",
-      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_1.48.12_AM_jabinq.jpg",
+      imgUrl:"",
       socialLinks:[
         {
           name:"linkedIn",
-          url:"https://www.linkedin.com/in/aryan-shubbu-14192622a"
+          url:""
         },
         {
           name:"Github",
-          url:"https://github.com/LoneExpert"
+          url:""
         },
         {
           name:"Email",
-          url:"mailto:aryan0307.be21@chitkara.edu.in"
+          url:""
         }
       ]
     },
