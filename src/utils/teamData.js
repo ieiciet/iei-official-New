@@ -136,6 +136,25 @@ export const coreTeam=[
       ]
     },
     {
+      name:"Vivek",
+      position:"Media Head",
+      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693678/vivek_sharma_vji00p.jpg",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/vivek-sharma-0097a2218/"
+        },
+        {
+          name:"Instagram",
+          url:"https://www.instagram.com/vivek1220_/"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/viveksharma1220"
+        }
+      ]
+    }, 
+    {
       name:"Dhruv",
       position:"Outreach Head",
       imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693750/Dhruv_q6wxb9.jpg",
@@ -155,21 +174,21 @@ export const coreTeam=[
       ]
     }, 
     {
-      name:"Vivek",
-      position:"Media Head",
-      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/v1698693678/vivek_sharma_vji00p.jpg",
+      name:"Shivam Gupta",
+      position:"Organising Head",
+      imgUrl:"#",
       socialLinks:[
         {
           name:"linkedIn",
-          url:"https://www.linkedin.com/in/vivek-sharma-0097a2218/"
+          url:"#"
         },
         {
           name:"Instagram",
-          url:"https://www.instagram.com/vivek1220_/"
+          url:"#"
         },
         {
           name:"Github",
-          url:"https://github.com/viveksharma1220"
+          url:"#"
         }
       ]
     }, 
@@ -215,6 +234,25 @@ export const coreTeam=[
 
   export const webDeveloper=[
     {
+      name:"Lovish Bansal",
+      position:"web executive",
+      imgUrl:"#",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"#"
+        },
+        {
+          name:"Github",
+          url:"#"
+        },
+        {
+          name:"Email",
+          url:"#"
+        }
+      ]
+    },
+    {
       name:"Vansh Arora",
       position:"web executive",
       imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
@@ -234,8 +272,8 @@ export const coreTeam=[
       ]
     },
     {
-      name:"",
-      position:"Co-Head",
+      name:"Aryan Shubbu",
+      position:"",
       imgUrl:"",
       socialLinks:[
         {
