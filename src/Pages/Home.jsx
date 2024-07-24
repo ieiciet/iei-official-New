@@ -2,7 +2,7 @@ import React from 'react';
 import Abouttemp from '../components/Abouttemp';
 import Hero from '../components/Hero';
 import { Faq } from '../components/Faq';
-import Testimonials from '../components/Testimonials';
+// import Testimonials from '../components/Testimonials';
 import RecentEvents from '../components/RecentEvents';
 import '../styles/home.css';
 
