@@ -253,6 +253,25 @@ export const coreTeam=[
       ]
     },
     {
+      name:"Jasleen Kaur",
+      position:"Web Co-Head",
+      imgUrl:"#",
+      socialLinks:[
+        {
+          name:"linkedIn",
+          url:"https://www.linkedin.com/in/jasleen-kaur-53483b25a/"
+        },
+        {
+          name:"Github",
+          url:"https://github.com/Jasleengujral01"
+        },
+        {
+          name:"Email",
+          url:"mailto:jasleen447.be22@chitkara.edu.in"
+        }
+      ]
+    },
+    {
       name:"Vansh Arora",
       position:"web executive",
       imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
