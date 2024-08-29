@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/team.css'
 import TeamName from '../components/TeamName'
 import MemberCard from '../components/MemberCard'
-import {coreTeam, webDeveloper} from '../utils/teamData'
+import {coHeads, coreTeam, webDeveloper} from '../utils/teamData'
 import {Heads} from '../utils/teamData'
 import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
@@ -28,14 +28,14 @@ function TeamIei() {
             <a href="https://www.linkedin.com/in/dr--yogesh/" target='_blank' className='cursor-pointer'>
               <FaLinkedin className='text-blue-600 text-[26px]'/>
             </a>
-          
+
             <a href="mailto:yogesh.1135@chitkara.edu.in" target='_blank' className='cursor-pointer'>
               <HiOutlineMail className='text-green-300 text-[26px]'/>
             </a>
           </div>
           </div>
         </div>
-        
+
       </section>
       <section className="flex flex-col justify-center items-center py-10">
         <TeamName name="Core Team"/>
@@ -47,6 +47,12 @@ function TeamIei() {
         <TeamName name="Heads"/>
         <div className='mt-20 flex flex-wrap gap-10 justify-center'>
           {Heads.map((member, index) => (<MemberCard name={member.name} imgUrl={member.imgUrl} position={member.position} socialLinks={member.socialLinks} index={index} key={index}/>))}
+        </div>
+    </section>
+        <section className="flex flex-col justify-center items-center py-10">
+        <TeamName name="Co Heads"/>
+        <div className='mt-20 flex flex-wrap gap-10 justify-center'>
+          {coHeads.map((member, index) => (<MemberCard name={member.name} imgUrl={member.imgUrl} position={member.position} socialLinks={member.socialLinks} index={index} key={index}/>))}
         </div>
       </section>
       <section className="flex flex-col justify-center items-center py-10">

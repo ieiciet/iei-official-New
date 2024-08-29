@@ -74,10 +74,10 @@ export const coreTeam=[
           url:"mailto:bhavika0361.be21@chitkara.edu.in"
         }
       ]
-    }, 
+    },
   ]
 
-  export const Heads=[
+export const Heads=[
     {
       name:"Aryan Shubbu",
       position:"Web Head",
@@ -153,7 +153,7 @@ export const coreTeam=[
           url:"https://github.com/viveksharma1220"
         }
       ]
-    }, 
+    },
     {
       name:"Dhruv",
       position:"Outreach Head",
@@ -172,7 +172,7 @@ export const coreTeam=[
           url:"#"
         }
       ]
-    }, 
+    },
     {
       name:"Shivam Gupta",
       position:"Organising Head",
@@ -191,7 +191,7 @@ export const coreTeam=[
           url:"#"
         }
       ]
-    }, 
+    },
     {
       name:"Lavish Garg",
       position:"Social Media Head",
@@ -210,7 +210,7 @@ export const coreTeam=[
           url:"#"
         }
       ]
-    }, 
+    },
     {
       name:"Sukhraj Singh",
       position:"Logestic Head",
@@ -229,122 +229,258 @@ export const coreTeam=[
           url:"mailto:sukhraj1404.be21@chitkara.edu.in "
         }
       ]
-    }, 
-  ]
+    },
+]
 
-  export const webDeveloper=[
+export const webDeveloper = [
     {
-      name:"Lovish Bansal",
-      position:"web executive",
-      imgUrl:"#",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"#"
-        },
-        {
-          name:"Github",
-          url:"#"
-        },
-        {
-          name:"Email",
-          url:"#"
-        }
-      ]
+        name: 'Lovish Bansal',
+        position: 'web executive',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'http://linkedin.com/in/lovish2584-profile/',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/lovishGIT',
+            },
+            {
+                name: 'Email',
+                url: 'mailto:lovishbansal441@gmail.com',
+            },
+        ],
     },
     {
-      name:"Jasleen Kaur",
-      position:"Web Co-Head",
-      imgUrl:"#",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"https://www.linkedin.com/in/jasleen-kaur-53483b25a/"
-        },
-        {
-          name:"Github",
-          url:"https://github.com/Jasleengujral01"
-        },
-        {
-          name:"Email",
-          url:"mailto:jasleen447.be22@chitkara.edu.in"
-        }
-      ]
+        name: 'Vansh Arora',
+        position: 'web executive',
+        imgUrl: 'https://i.postimg.cc/prmLcfKp/pic.jpg',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'http://linkedin.com/in/developer-vansh',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/VanshArora08',
+            },
+            {
+                name: 'Email',
+                url: 'mailto:vansh1499.be21@chitkara.edu.in',
+            },
+        ],
     },
     {
-      name:"Vansh Arora",
-      position:"web executive",
-      imgUrl:"https://i.postimg.cc/prmLcfKp/pic.jpg",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"http://linkedin.com/in/developer-vansh"
-        },
-        {
-          name:"Github",
-          url:"https://github.com/VanshArora08"
-        },
-        {
-          name:"Email",
-          url:"mailto:vansh1499.be21@chitkara.edu.in"
-        }
-      ]
+        name: 'Aryan Shubbu',
+        position: '',
+        imgUrl: '',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'https://www.linkedin.com/in/aryan-shubbu-14192622a/',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/LoneExpert',
+            },
+            {
+                name: 'Email',
+                url: '',
+            },
+        ],
     },
     {
-      name:"Aryan Shubbu",
-      position:"",
-      imgUrl:"",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:""
-        },
-        {
-          name:"Github",
-          url:""
-        },
-        {
-          name:"Email",
-          url:""
-        }
-      ]
+        name: 'Harsimran Singh',
+        position: 'web executive',
+        imgUrl: 'https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_8.13.49_AM_qthrfk.jpg',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'https://www.linkedin.com/in/harsimran-singh19/',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/Harsimran-19',
+            },
+            {
+                name: 'Email',
+                url: 'mailto:harsimran3790.be21@chitkara.edu.in',
+            },
+        ],
     },
     {
-      name:"Harsimran Singh",
-      position:"web executive",
-      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_8.13.49_AM_qthrfk.jpg",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"#"
-        },
-        {
-          name:"Github",
-          url:"https://github.com/Harsimran-19"
-        },
-        {
-          name:"Email",
-          url:"mailto:harsimran3790.be21@chitkara.edu.in"
-        }
-      ]
+        name: 'Munish Goel',
+        position: 'web executive',
+        imgUrl: 'https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781946/WhatsApp_Image_2023-10-31_at_8.09.32_AM_bcuaks.jpg',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: '#',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/MG2356',
+            },
+            {
+                name: 'Email',
+                url: 'mailto:munish4506.be21@chitkara.edu.in',
+            },
+        ],
+    },
+];
+
+export const coHeads = [
+    {
+        name: 'Parul',
+        position: 'Content Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'https://www.linkedin.com/in/jasleen-kaur-53483b25a/',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/Jasleengujral01',
+            },
+            {
+                name: 'Email',
+                url: 'mailto:jasleen447.be22@chitkara.edu.in',
+            },
+        ],
     },
     {
-      name:"Munish Goel",
-      position:"web executive",
-      imgUrl:"https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781946/WhatsApp_Image_2023-10-31_at_8.09.32_AM_bcuaks.jpg",
-      socialLinks:[
-        {
-          name:"linkedIn",
-          url:"#"
-        },
-        {
-          name:"Github",
-          url:"https://github.com/MG2356"
-        },
-        {
-          name:"Email",
-          url:"mailto:munish4506.be21@chitkara.edu.in"
-        }
-      ]
+        name: 'Jasleen Kaur',
+        position: 'Web Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'https://www.linkedin.com/in/jasleen-kaur-53483b25a/',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/Jasleengujral01',
+            },
+            {
+                name: 'Email',
+                url: 'mailto:jasleen447.be22@chitkara.edu.in',
+            },
+        ],
     },
-  ]
+    {
+        name: 'Pareen',
+        position: 'Social-media Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'https://www.linkedin.com/in/jasleen-kaur-53483b25a/',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/Jasleengujral01',
+            },
+            {
+                name: 'Email',
+                url: 'mailto:jasleen447.be22@chitkara.edu.in',
+            },
+        ],
+    },
+    {
+        name: 'Abhinav Rawat',
+        position: 'Graphics Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: '#',
+            },
+            {
+                name: 'Github',
+                url: '#',
+            },
+            {
+                name: 'Email',
+                url: '#',
+            },
+        ],
+    },
+    {
+        name: 'Jasneet',
+        position: 'Logistics Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: '#',
+            },
+            {
+                name: 'Github',
+                url: '#',
+            },
+            {
+                name: 'Email',
+                url: '#',
+            },
+        ],
+    },
+    {
+        name: 'Prince Rawat',
+        position: 'Media Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: '#',
+            },
+            {
+                name: 'Github',
+                url: '#',
+            },
+            {
+                name: 'Email',
+                url: '#',
+            },
+        ],
+    },
+    {
+        name: 'Jatin sihag',
+        position: 'Discipline Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: '#',
+            },
+            {
+                name: 'Github',
+                url: '#',
+            },
+            {
+                name: 'Email',
+                url: '#',
+            },
+        ],
+    },
+    {
+        name: 'Palak Kaushik',
+        position: 'Outreach Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: '#',
+            },
+            {
+                name: 'Github',
+                url: '#',
+            },
+            {
+                name: 'Email',
+                url: '#',
+            },
+        ],
+    },
+];
