@@ -292,7 +292,7 @@ export const webDeveloper = [
     },
     {
         name: 'Harsimran Singh',
-        position: 'Web executive',
+        position: 'Web Executive',
         imgUrl: 'https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_8.13.49_AM_qthrfk.jpg',
         socialLinks: [
             {
