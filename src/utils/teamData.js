@@ -235,7 +235,7 @@ export const Heads=[
 export const webDeveloper = [
     {
         name: 'Lovish Bansal',
-        position: 'web executive',
+        position: 'Web executive',
         imgUrl: '#',
         socialLinks: [
             {
