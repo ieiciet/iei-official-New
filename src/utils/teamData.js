@@ -427,21 +427,21 @@ export const coHeads = [
         ],
     },
     {
-        name: 'Prince Rawat',
+        name: 'Prince Kumar',
         position: 'Media Co-Head',
         imgUrl: '#',
         socialLinks: [
             {
                 name: 'linkedIn',
-                url: '#',
+                url: 'https://www.linkedin.com/in/prince-kumar-8a4a22275/',
             },
             {
                 name: 'Github',
-                url: '#',
+                url: 'https://github.com/itzprincephutela',
             },
             {
                 name: 'Email',
-                url: '#',
+                url: 'Princephutela9988@gmail.com',
             },
         ],
     },
