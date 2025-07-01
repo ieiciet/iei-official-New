@@ -427,7 +427,7 @@ export const coHeads = [
         ],
     },
     {
-        name: 'Prince Rawat',
+        name: 'Prince Kumar',
         position: 'Media Co-Head',
         imgUrl: '#',
         socialLinks: [
