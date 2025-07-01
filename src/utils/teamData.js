@@ -292,7 +292,7 @@ export const webDeveloper = [
     },
     {
         name: 'Harsimran Singh',
-        position: 'web executive',
+        position: 'Web Executive',
         imgUrl: 'https://res.cloudinary.com/dnxud81bz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1698781945/WhatsApp_Image_2023-10-31_at_8.13.49_AM_qthrfk.jpg',
         socialLinks: [
             {
@@ -331,6 +331,25 @@ export const webDeveloper = [
 ];
 
 export const coHeads = [
+     {
+        name: 'Prince Kumar',
+        position: 'Media Co-Head',
+        imgUrl: '#',
+        socialLinks: [
+            {
+                name: 'linkedIn',
+                url: 'https://www.linkedin.com/in/prince-kumar-8a4a22275/',
+            },
+            {
+                name: 'Github',
+                url: 'https://github.com/itzprincephutela',
+            },
+            {
+                name: 'Email',
+                url: 'Princephutela9988@gmail.com',
+            },
+        ],
+    },
     {
         name: 'Parul',
         position: 'Content Co-Head',
@@ -426,25 +445,7 @@ export const coHeads = [
             },
         ],
     },
-    {
-        name: 'Prince Rawat',
-        position: 'Media Co-Head',
-        imgUrl: '#',
-        socialLinks: [
-            {
-                name: 'linkedIn',
-                url: '#',
-            },
-            {
-                name: 'Github',
-                url: '#',
-            },
-            {
-                name: 'Email',
-                url: '#',
-            },
-        ],
-    },
+   
     {
         name: 'Jatin sihag',
         position: 'Discipline Co-Head',
