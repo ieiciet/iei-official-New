@@ -254,7 +254,7 @@ export const webDeveloper = [
     },
     {
         name: 'Vansh Arora',
-        position: 'web executive',
+        position: 'Web executive',
         imgUrl: 'https://i.postimg.cc/prmLcfKp/pic.jpg',
         socialLinks: [
             {
